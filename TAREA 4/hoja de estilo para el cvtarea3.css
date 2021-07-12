@@ -1,0 +1,78 @@
+
+body{
+  background-color: rgb(126, 126, 113);
+}
+#partesuperior{
+width: 1000;
+height: 200;
+background-color: rgb(36, 34, 63);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: #c2c2ca;
+font-size:0px;
+
+}
+
+.soloperfil{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: normal;
+   color: rgb(80, 75, 2);
+   background-color: rgb(126, 126, 113);
+    border-style: solid;
+    border-color: rgb(126, 126, 113);
+    border-width: 20px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+  
+}
+
+.soloparrafoperfil{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: rgb(80, 75, 2);
+    font-style: normal;
+    padding: 20px;
+    background-color: rgb(126, 126, 113);
+}
+
+.solotitulos{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(5, 5, 48);
+    background-color:rgb(80, 75, 2);
+    border-style: solid;
+    border-color: rgb(80, 75, 2);
+    border-width: 10px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 20px;
+
+}
+
+ul{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color:#c2c2ca;
+    font-style: normal;
+    padding: 20px;
+    background-color: rgb(126, 126, 113);
+}   
+
+.soloparrafoscv{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: rgb(5, 5, 48);
+    font-style: normal;
+    padding: 20px;
+    background-color: rgb(126, 126, 113);
+    border-color: rgb(126, 126, 113);
+}
+
+
+    
+    
+   
