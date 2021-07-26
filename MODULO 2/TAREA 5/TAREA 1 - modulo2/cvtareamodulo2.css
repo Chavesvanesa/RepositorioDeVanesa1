@@ -1,0 +1,87 @@
+#contenedor{
+    /*background-color: #81888b;*/
+    background-color:  rgb(133, 133, 104);
+    width: 60%;
+    height: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+    position: static;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    }
+    #box01{
+        background-color: #0f2b4e;
+        border: 1px solid #003371;
+        box-shadow: 5px -5px   #003371;
+        width: 60%;
+        height: 25%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        position: relative;
+        padding: 0 10px 10px 5px;
+        font-family: 'Ubuntu', sans-serif;
+        color: white; 
+        font-size: 20px;
+      
+    }
+    .titulosuperior{
+        font-family: 'Ubuntu', sans-serif;
+        color: #C1FF00;
+        font-size: 40px;
+    }
+   
+    #box02{
+    background-color:  rgb(133, 133, 104);
+    border: 2px solid #C1FF00;
+    width: 95%;
+    height: 25%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 15px;
+    position: relative;
+    columns: 3;
+     }
+    .columnas{
+        font-family: 'Ubuntu', sans-serif;
+        color: white;
+        font-size: 15px;
+    }
+    #box03{
+    background-color: rgb(133, 133, 104);
+    border:none;
+    width: 80%;
+    height: 20%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    position: relative;
+   
+    }
+    .partemedia{
+        font-family: 'Ubuntu', sans-serif;
+        color: #003371;
+        font-size: 16px; 
+    }
+    .titulosmedia{
+        font-family: 'Ubuntu', sans-serif;
+        color: #0f2b4e;
+        font-size: 25px;
+    }
+    #box04{
+        background-color: #81888b;
+        border: 1px solid #C1FF00;
+        border-radius: 15px;
+        box-shadow: 0 0 15px  #C1FF00;
+        width: 45%;
+        height: 15%;
+        margin: 0 auto;
+        margin-bottom: 25px;
+        position: relative; 
+        padding: 5px;
+        color: red;
+        font-size: 20px;
+        text-align: center;       
+    }
+    #box04:hover {
+        background-color: #C1FF00;
+    }
