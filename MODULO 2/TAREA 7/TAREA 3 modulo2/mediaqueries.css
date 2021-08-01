@@ -1,0 +1,113 @@
+/* CSS Document */
+
+body {
+	
+	background-color: #7e4e96;
+	font-size:100%;
+}
+.contenedor {
+	width: 800px;
+	background: #a903d3;
+	box-shadow: 0 20px 50px #3d014d;
+    border-radius: 25px;
+	justify-content: center;
+	text-align: center;
+	margin: 0 auto;
+    padding: 15px;
+	margin:0 auto;
+	overflow: hidden;
+}
+h1{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 37px;
+	color: #d1e616;
+}
+  h2{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 28px;
+	color: #2e0438;
+}
+h3{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	color: #2e0438;
+}
+nav {
+	background: #a903d3;
+	border-radius: 25px;
+	float: left;
+	width: 80px;
+    
+	font-size: 30px;
+}
+nav ul {
+	list-style-type:none;
+	transition: all 0.3s ease;
+	
+}
+nav ul li a {
+	text-decoration: none;
+	color: #3d014d;
+}	
+.contenedor ul li a:hover {
+	background-color: red;
+}
+.contenido {
+	background-color: #a903d3;
+    border: 3px solid #cfe601;
+	border-radius: 25px;
+	padding: 0 10px 0px 10px;
+	float: left;
+	margin: 0 25px 0 25px;
+	width: 400px;
+}
+nav ul:hover{
+	transform: scale(1.3);
+}
+p{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	color: white;
+}
+
+@media screen and (min-width: 230px) and (max-width: 800px){
+
+	body {
+		padding:0;
+		margin:0;
+	}
+	.contenedor {
+		background:#a903d3;
+		width:100%;
+	}
+	nav {
+		background: #a903d3;
+		float:none;
+		width:100%;
+	}
+    nav ul {
+		margin:0;
+	}
+	nav ul li a {
+		padding: 0.5em;
+		display: block;
+		color:rgb(228, 245, 252);
+	}
+	.contenido {
+		background-color: #a903d3 ;
+		border: solid #cfe601;
+		float:none;
+		padding: 0.9em;
+		width:100%;
+		margin-left:0;
+	}
+	aside {
+		
+		float:none;
+		padding: 0.8em;
+		width:100%;
+		margin-left:0;
+	}
+
+
+}
