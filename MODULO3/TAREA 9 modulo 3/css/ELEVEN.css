@@ -1,0 +1,171 @@
+/*font-family: 'Philosopher', sans-serif;*/
+
+body{
+    font-family: 'Philosopher', sans-serif;
+    font: 16px;
+    line-height: 20px;
+}
+header{
+    background-color: rgb(39, 37, 37);
+    padding: 1em 0;
+}
+header h1{
+color: white;
+font-size: 2.5em;
+font-style: italic;
+font: weight 100 ;
+display: inline-block;
+position: relative;
+bottom: 30px;
+}
+nav{
+    background-color: white;
+    margin-bottom: 2em;
+    
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display: inline-block;
+    width: 16.3%;
+}    
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 0.2em 0.4em;
+}
+nav ul li a:hover{
+    background-color: chartreuse;
+}
+footer{
+    background-color: rgb(219, 238, 245);
+    clear: both;
+    color: black;
+    padding: 2em;
+    margin-top: 2em;
+    text-align: center;
+}
+nav ul li a.activo{
+    background-color:black;
+}
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: rgb(39, 37, 37);
+}
+.h2{
+    color: black;
+    font-weight: 400;
+    margin: 0 0 1em;
+}
+.left{
+    float:left ;
+}
+.right{
+    float: right;
+}
+.homeimg{
+    background-color: white;
+    margin-bottom: 1em;
+   
+}
+.homeimg img{
+    max-width: 100%;
+}
+.bienvenidos, .testimonios{
+    box-sizing: border-box;
+    margin-bottom: 2em;
+}
+.bienvenidos{
+    width: 75%;
+    padding-right: 2em;
+}
+.testimonios{
+    width: 25%;
+}
+.testimonio{
+    background-color: rgb(176, 222, 245);
+    padding: 1em;
+   
+}
+.testimonio .cita{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.4em;
+display: block;
+
+}
+.testimonio .autor{
+    font-size: 0.7em;
+    text-align: center;
+    margin: 1em 0;
+    display: block;
+}
+
+
+/*fin home*/
+
+/*inicio nosotros*/  
+
+.holder0{
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: white;
+}
+.historia, .staff{
+    background-color: white;
+
+}
+.staff {
+    margin-top: 3.em;
+    margin-bottom: 2em;
+}
+.historia p{
+    font-size: 1em;
+}    
+.left img{
+    width: 300px;
+    margin-right: 1em;
+}
+
+.personas{
+    overflow: hidden;
+}
+
+.holder0{
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.persona{
+    width: 30%;
+    
+    float: right;
+    margin-left: 4%;
+    box-sizing: border-box;
+}
+.persona{
+    text-align: center;
+}
+.persona img{
+border-radius: 50%;
+box-shadow: 0 0 5px skyblue;
+margin: 0.8em 0 1em;
+max-width: 70%;
+}
+
+.persona p{
+font-size: 0.7em;
+color: black;
+
+}
+
+
+/*fin nosotros*/
+
